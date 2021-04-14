@@ -3,17 +3,17 @@
     {
       "path": "about.html",
       "title": "About this blog",
-      "description": "Some additional details about the blog",
+      "description": "Some additional details about the blog - testing out new text",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-13T21:09:19-04:00"
+      "contents": "\nNew text here. Does it work?\n\n\n\n",
+      "last_modified": "2021-04-14T20:51:52+00:00"
     },
     {
       "path": "index.html",
       "title": "My Blog",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-13T21:09:20-04:00"
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-04-14T20:51:53+00:00"
     }
   ],
   "collections": ["posts/posts.json"]
