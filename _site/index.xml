@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>My Blog</title>
+    <link>https://morellet54.netlify.app/</link>
+    <atom:link href="https://morellet54.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
+    <description>My Blog
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Functions and plot_ly figures from Flight Data</title>
+      <dc:creator>Morelle Tinsley</dc:creator>
+      <link>https://morellet54.netlify.app/posts/2021-04-20-my-first-new-post</link>
+      <description>The following is an assignment I completed which includes sorting a data set to find the desired data, creating functions which can then be reused later, and finally creating figures to represent the data.</description>
+      <guid>https://morellet54.netlify.app/posts/2021-04-20-my-first-new-post</guid>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mapping in Leaflet</title>
+      <dc:creator>Morelle Tinsley</dc:creator>
+      <link>https://morellet54.netlify.app/posts/2021-04-20-my-second-new-post</link>
+      <description>Here is a sample of maps I made using Leaflet to represent different data sets in R.</description>
+      <guid>https://morellet54.netlify.app/posts/2021-04-20-my-second-new-post</guid>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome to Morelle's Website</title>
+      <dc:creator>Morelle Tinsley</dc:creator>
+      <link>https://morellet54.netlify.app/posts/welcome</link>
+      <description>Welcome to my new site, I'm so excited that it's working! Head over to the About page to learn more about me and my site.</description>
+      <guid>https://morellet54.netlify.app/posts/welcome</guid>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

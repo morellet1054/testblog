@@ -3,6 +3,7 @@ title: "My Blog"
 description: |
   My Blog
 output_dir: "_site"
+base_url: "https://morellet54.netlify.app/"
 navbar:
   right:
     - text: "Home"
@@ -10,3 +11,11 @@ navbar:
     - text: "About"
       href: about.html
 output: distill::distill_article
+category:
+  -charts
+collections:
+  posts:
+    share: [twitter, linkedin, facebook]
+
+
+
