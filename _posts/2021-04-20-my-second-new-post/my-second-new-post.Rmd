@@ -1,7 +1,7 @@
 ---
-title: "My Second New Post"
+title: "Mapping in Leaflet"
 description: |
-  Bear with me, testing things out!.
+  Here is a sample of maps I made using Leaflet to represent different data sets in R.
 author:
   - name: Morelle Tinsley
     url: https://www.google.com
@@ -13,16 +13,102 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
+
+# Load packages
+library(tidyverse)
+library(lubridate)
+library(readxl)
+library(janitor)
+library(glue)
+library(leaflet)
+library(RColorBrewer)
+library(htmlwidgets)
+library(htmltools)
+library(tigris)
+library(tmap)
+library(tmaptools)
+options(tigris_class = "sf")
 ```
 
-Distill is a publication format for scientific and technical writing, native to the web.
+### Map of COVID-19 Deaths by State as of February 22, 2021
 
-Learn more about using Distill at <https://rstudio.github.io/distill>.
+First, I loaded in COVID-19 data from the New York Times. I filtered this data to show the specified date, which is the day the US surpassed 1million deaths due to COVID-19. Then I input this filtered data into a leaflet map, and added colors and the interactive stats which show up when you hover over a specific state. Finally, I added a map legend.
 
-Type type type
+```{r include=FALSE}
+covidcases <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv")
+```
 
-I am **writing** for my new site.
+```{r include=FALSE}
+#Download the polygon boundaries for states at the lowest resolution using tigris package
+states <- tigris::states(cb=T)
+```
 
-The [link](https://trello.com/c/3NrSI1Nq/65-bringing-it-all-together-building-your-own-live-website-with-distill) to the class Trello board.
+```{r include=FALSE}
+covid_data <- covidcases %>% 
+  filter(date == "2021-02-22") #filter and name the data set
 
-Here's an image of my mom's new puppy: ![Her name is Carter](images/Baby%20Carter.jpg){width="3000"}
+covid_data
+
+covid_merged <- geo_join(states, covid_data, "NAME", "state") #merge states with covid data
+```
+
+```{r}
+leaflet() %>%
+  addTiles() %>%
+  setView(-98.483330, 38.712046, zoom = 4) 
+
+mypalette <- colorNumeric("YlOrRd", domain = covid_merged$deaths) #create a color palette for the map
+
+popup_cd <- paste0("Total Deaths: ", as.character(covid_merged$deaths)) #make the hover over thingy
+
+covid_death_map<-leaflet() %>%
+  addTiles() %>%
+  setView(-98.483330, 38.712046, zoom = 4) %>%   #set the view and zoom to show what you want to see (in our case the continental US)
+  addPolygons(data = covid_merged , 
+              fillColor = ~mypalette(covid_merged$deaths), #fill the states by darkening color=more deaths
+              fillOpacity = 0.9, 
+              weight = 0.2, 
+              smoothFactor = 0.2,
+              label=popup_cd, #add the hover over total deaths labels
+              labelOptions = labelOptions(
+                style = list("font-weight" = "normal", padding = "3px 8px"),
+                textsize = "15px",
+                direction = "auto")) %>%
+  addLegend(pal = mypalette, #add a map legend
+            values = covid_merged$deaths,
+            bins = 4,
+            position = "bottomright", 
+            title = "Covid Cases", 
+            labFormat = labelFormat(digits = 0))
+
+covid_death_map
+```
+
+### Map of Sacramento Real Estate Sales
+
+The following map expresses data of real estate sales in Sacramento. Using leaflet, I added circles whose size corresponds to the price of the real estate sale in that particular latitude and longitude location.
+
+```{r}
+
+sac_sales <- read_csv("https://support.spatialkey.com/wp-content/uploads/2021/02/Sacramentorealestatetransactions.csv")
+
+sac_sales <- sac_sales %>% 
+  filter(type == "Residential") #filter out the rows we don't want
+
+sac_map <- leaflet(sac_sales) %>% #create a map in leaflet
+  addTiles() %>%
+  setView(-121.4944, 38.5816, zoom = 11) %>% #set the coordinates of sacramento and zoom accordingly
+  # addTiles() %>%
+  addProviderTiles(providers$Stamen.TonerLite) %>% #alternative tile background
+  addCircles(lng = ~longitude, #add the circles on the coordinents of the sales
+             lat = ~latitude, 
+             weight = 1,
+             # stroke = FALSE,
+             # fillOpacity = .50,
+             radius = ~sqrt(price) * 1 #set the size of the circles relative to the price of the sale
+  ) %>%
+  addControl("Real Estate Sales (itemized) by zip code", position = "topright") #add title
+
+sac_map
+```
