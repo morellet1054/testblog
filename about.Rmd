@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 description: |
-  Here's a Little bit about who I am and what I do
+  My name is Morelle Tinsley and I am a **graduating** senior at George Washington University. In my Digital Reporting class, we have been learning to code in RStudio all semester in order to learn how to search and sort data in order to find stories in numbers! For my final project, we learned how to create our own personal website using Distill and netlify, and that is what you see here.
 ---
 
 ```{r setup, include=FALSE}

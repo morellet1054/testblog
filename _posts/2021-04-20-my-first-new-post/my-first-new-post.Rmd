@@ -1,7 +1,7 @@
 ---
-title: "My First New Post"
+title: "Functions and plot_ly figures from Flight Data"
 description: |
-  A short description of the post.
+  The following is an assignment I completed which includes sorting a data set to find the desired data, creating functions which can then be reused later, and finally creating figures to represent the data.
 author:
   - name: Morelle Tinsley
     url: https://www.google.com
@@ -11,17 +11,282 @@ output:
     self_contained: false
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-This is the first post I'm trying for a Distill site.
-
-Learn more about using Distill at <https://rstudio.github.io/distill>.
-
 ```{r}
-head(mtcars)
+knitr::opts_chunk$set(echo = TRUE)
+
+#first load the libraries we'll need
+library(tidyverse)
+library(plotly)
+library(nycflights13) # <- make sure to install this package 
+
+
 ```
 
+## Functions
 
+1.  Create a function that will return the sum of 2 numbers.
+
+```{r}
+two_two <- function(firstnum, secondnum){
+  
+  result <- sum(firstnum, secondnum) 
+  
+  return(result)
+  }
+two_two(2,2) #ran the code with two numbers
+
+
+
+```
+
+2.  Create a function that will return the mean of a vector of numbers fed to it.\
+    -You can see how I first created a function which would calculate a mean, and then later I input a vector of numbers, and the function found its mean for me.
+
+```{r}
+
+mynumbers <- sample(1:100, 10)
+
+mean_function <- function(vector){ 
+  
+  result <- mean(vector)
+  
+  return(result)
+}
+
+mean_vector <- c(7,19,245,300,50,89)
+
+
+mean_function(mean_vector)
+
+
+```
+
+3.  Now, expand on the function you made above, and instead of just returning the number, have it return the sentence:\
+    "The mean is \_\_\_" where the blank is the calculated result.
+
+```{r}
+
+mean_vector <- c(7,19,245,300,50,89)
+
+question3 <- function(vector.set) {
+  avg.set <- mean(vector.set)
+  print(paste("The mean is", avg.set))
+}
+
+question3(mean_vector)
+
+
+```
+
+```{r}
+#load the data to use for the rest of the assignment questions
+flights <- nycflights13::flights
+
+```
+
+4.  Using the `flights` dataset from the package `nycflights13` loaded in the above cell, create a function that filters the data frame to only include records from a single originating airport (column name `origin`).
+
+```{r}
+
+
+
+head(flights)
+
+snglorgn <- function(flight_numbers) {
+  flight_numbers %>%
+    filter(origin == "JFK")
+}
+
+snglorgn(flights)
+
+
+
+
+
+```
+
+5.  Similarly, using the `flights` dataset, create a function that:\
+
+-   filters the data frame to only include records from a single originating airport (column name `origin`), and then\
+-   aggregates the results by airline (`carrier`) to show how many flights each airline has from that airport.
+
+```{r}
+
+head(flights)
+
+snglorgn <- function(flight_numbers) {
+  flight_numbers %>%
+    filter(origin == "JFK") %>% 
+    count(carrier)
+}
+
+
+snglorgn(flights)
+
+
+
+
+
+```
+
+6.  Similarly, using the `flights` dataset, create a function that:\
+
+-   filters the data frame to only include records from a single originating airport (column name `origin`), and then\
+-   filter to only include flights longer than a specific number of minutes (`air_time`), and then\
+-   aggregates the results by airline (`carrier`) to show how many flights of that length each airline has from that airport.
+
+```{r}
+
+head(flights)
+
+snglorgn_plusmore <- function(flight_numbers) {
+  flight_numbers %>%
+    filter(origin == "JFK") %>% 
+    filter(air_time>400) %>% 
+    count(carrier)
+}
+
+snglorgn_plusmore(flights)
+
+
+```
+
+## Plotly charts
+
+7.  Using the `flights` dataset, use plotly to create a bar chart showing the breakdown of flights by airline that originate from JFK airport (`origin`) and are more than 400 minutes in length (`air_time`).
+
+    -   Now we have come to the portion of the assignment where we use sorting and functions to make graphics to show our data.
+
+    -   Below, you can see that I created a function which sorted my data, gave it a name, and then imput it into the Plot_ly chart which makes a bar chart from the newly filtered data.
+
+```{r}
+head(flights)
+
+snglorgn_plusmore <- function(flight_numbers) { #made a function to filter the data
+  flight_numbers %>%
+    filter(origin == "JFK") %>% 
+    filter(air_time>400) %>% 
+    count(carrier)}
+
+snglorgn_plusmore(flights)
+  
+JFK_bar <- snglorgn_plusmore(flights)
+
+plot_ly(data = JFK_bar,                    #create a bar chart from it
+        x = ~carrier,
+        y = ~n,
+        type = "bar"
+        ) %>% 
+  layout(title = "400 minute flights by carrier from JFK",
+         xaxis = list(title = "Carrier"),
+         yaxis = list (title = "Number of flights"))
+
+
+
+
+
+```
+
+8.  Using the `flights` dataset, use plotly to create a bar chart showing which destination airports (`dest`) have the most flights with durations of over 400 minutes (`air_time`).
+
+```{r}
+
+head(flights)
+
+dest_count <- function(flight_numbers) {
+  flight_numbers %>%
+    filter(air_time>400) %>% 
+    count(dest)}
+
+dest_count(flights)
+  
+Dest_bar <- dest_count(flights)
+
+plot_ly(data = Dest_bar,
+        x =~dest,
+        y = ~n,
+        type = "bar") %>% 
+  layout(title = "Destinations with most 400 minute flights",
+         xaxis = list(title = "Destination"),
+         yaxis = list (title = "Number of flights"))
+
+
+
+
+```
+
+9.  Using the `flights` dataset, use plotly to create a donut chart showing the share of flights each airline has for flights with a destination of Daniel K. Inouye International Airport (HNL) in Honolulu.
+
+```{r}
+HNL_share <- function(flight_numbers){
+  flight_numbers %>% 
+    count(dest == "HNL")
+}
+```
+
+```{r}
+
+head(flights)
+
+flights %>% 
+  filter(dest =="HNL") %>% 
+  count(carrier) 
+```
+
+```{r}
+
+```
+
+```{r}
+carrier_count <- function(data){
+results <- data %>% 
+    filter(dest == "HNL") %>% 
+  count(carrier) 
+
+return(results)
+}
+```
+
+```{r}
+honolulu_donut <- carrier_count(flights)
+```
+
+```{r}
+
+
+fig <- honolulu_donut %>% plot_ly(labels = ~carrier, values = ~n)
+
+fig <- fig %>% add_pie(hole = 0.6) #would make a pie chart, to make a donut chart add the hole
+
+fig <- fig %>% layout(
+                  title = "Number of HNL flights by carrier",  showlegend = F,
+                  xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+                  yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
+fig
+
+```
+
+10. Using the `flights` dataset, use plotly to create a scatterplot chart for flights with a destination of Daniel K. Inouye International Airport (HNL) in Honolulu, that shows the relationship between the departure delay (`dep_delay`) and arrival delay (`arr_delay`).
+
+```{r}
+
+head(flights)
+
+delay_data <- flights %>% 
+  filter(dest == "HNL")
+```
+
+```{r}
+delay_plot_ly<- plot_ly(data = delay_data, x = ~dep_delay, y = ~arr_delay)
+
+delay_scatter <- plot_ly(data = delay_data, x = ~dep_delay, y = ~arr_delay) %>% 
+  layout(title = "Honolulu Arrival Delays According to Departure Delays")
+
+delay_scatter
+```
+
+\`\`\`

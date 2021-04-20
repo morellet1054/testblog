@@ -1,7 +1,7 @@
 ---
 title: "Welcome to Morelle's Website"
 description: |
-  Welcome to my new site, I'm so excited that it's working!
+  Welcome to my new site, I'm so excited that it's working! Head over to the About page to learn more about me and my site.
 author:
   - name: Morelle Tinsley 
     url: https://www.google.com
