@@ -1,0 +1,28 @@
+---
+title: "My Second New Post"
+description: |
+  Bear with me, testing things out!.
+author:
+  - name: Morelle Tinsley
+    url: https://www.google.com
+date: 04-20-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+Type type type
+
+I am **writing** for my new site.
+
+The [link](https://trello.com/c/3NrSI1Nq/65-bringing-it-all-together-building-your-own-live-website-with-distill) to the class Trello board.
+
+Here's an image of my mom's new puppy: ![Her name is Carter](images/Baby%20Carter.jpg){width="3000"}

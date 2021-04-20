@@ -1,19 +1,53 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to My Blog",
-    "description": "Welcome to our new blog, My Blog. We hope you enjoy \nreading what we have to say!",
+    "path": "posts/2021-04-20-my-first-new-post/",
+    "title": "My First New Post",
+    "description": "A short description of the post.",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Morelle Tinsley",
+        "url": "https://www.google.com"
+      }
+    ],
+    "date": "2021-04-20",
+    "categories": [],
+    "contents": "\nThis is the first post I’m trying for a Distill site.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n                   mpg cyl disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1\n\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-04-20T14:28:02+00:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2021-04-20-my-second-new-post/",
+    "title": "My Second New Post",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Morelle Tinsley",
+        "url": "https://www.google.com"
+      }
+    ],
+    "date": "2021-04-20",
+    "categories": [],
+    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\nType type type\nI am writing for my new site.\nThe link to the class Trello board.\nHere’s an image of my mom’s new puppy: \n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-04-20T14:43:15+00:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to Morelle's Website",
+    "description": "Welcome to my new site, I'm so excited that it's working!",
+    "author": [
+      {
+        "name": "Morelle Tinsley",
+        "url": "https://www.google.com"
       }
     ],
     "date": "2021-04-13",
     "categories": [],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-04-14T20:48:52+00:00",
+    "last_modified": "2021-04-20T14:30:40+00:00",
     "input_file": {}
   }
 ]

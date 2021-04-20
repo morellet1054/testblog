@@ -1,0 +1,27 @@
+---
+title: "My First New Post"
+description: |
+  A short description of the post.
+author:
+  - name: Morelle Tinsley
+    url: https://www.google.com
+date: 04-20-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+This is the first post I'm trying for a Distill site.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+```{r}
+head(mtcars)
+```
+
+

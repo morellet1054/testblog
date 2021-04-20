@@ -2,18 +2,18 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this blog",
-      "description": "Some additional details about the blog - testing out new text",
+      "title": "About Me",
+      "description": "Here's a Little bit about who I am and what I do",
       "author": [],
       "contents": "\nNew text here. Does it work?\n\n\n\n",
-      "last_modified": "2021-04-14T20:51:52+00:00"
+      "last_modified": "2021-04-20T14:46:02+00:00"
     },
     {
       "path": "index.html",
       "title": "My Blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-04-14T20:51:53+00:00"
+      "last_modified": "2021-04-20T14:46:03+00:00"
     }
   ],
   "collections": ["posts/posts.json"]

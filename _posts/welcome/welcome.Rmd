@@ -1,11 +1,10 @@
 ---
-title: "Welcome to My Blog"
+title: "Welcome to Morelle's Website"
 description: |
-  Welcome to our new blog, My Blog. We hope you enjoy 
-  reading what we have to say!
+  Welcome to my new site, I'm so excited that it's working!
 author:
-  - name: Nora Jones 
-    url: https://example.com/norajones
+  - name: Morelle Tinsley 
+    url: https://www.google.com
     affiliation: Spacely Sprockets
     affiliation_url: https://example.com/spacelysprokets
 date: 04-13-2021
