@@ -7,5 +7,9 @@
 
 <!-- badges: end -->
 
-The goal of project is to ...
+The goal of my website is to practice and share what I've learned this semester 
+
+The website associated with this repo is located at:
+https://morellet54.netlify.app/
+
 
