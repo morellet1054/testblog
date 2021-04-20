@@ -6,14 +6,14 @@
       "description": "My name is Morelle Tinsley and I am a **graduating** senior at George Washington University. In my Digital Reporting class, we have been learning to code in RStudio all semester in order to learn how to search and sort data in order to find stories in numbers! For my final project, we learned how to create our own personal website using Distill and netlify, and that is what you see here.",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-04-20T19:22:44+00:00"
+      "last_modified": "2021-04-20T19:26:28+00:00"
     },
     {
       "path": "index.html",
       "title": "Morelle's Website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-04-20T19:22:45+00:00"
+      "last_modified": "2021-04-20T19:26:29+00:00"
     }
   ],
   "collections": ["posts/posts.json"]
