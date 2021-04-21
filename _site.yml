@@ -10,6 +10,12 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Data Stories"
+      menu:
+        - text: "My New Article"
+        - href: my-new-article.html
+        - text: "Second Item Down"
+        - href: publish_website.html
 output: distill::distill_article
 category:
   -charts
