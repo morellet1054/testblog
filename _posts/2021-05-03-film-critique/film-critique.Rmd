@@ -1,0 +1,38 @@
+---
+title: "Film Critique"
+description: |
+  The following is a sample of a film critique I wrote for my Human Trafficking class. To learn more about why this movie was so controversial, read on!
+author:
+  - name: Morelle Tinsley
+    url: https://morellet54.netlify.app
+date: 05-03-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### *Cuties* (French: Mignonnes: 2020) Critique
+
+The debut film *Cuties* (French: Mignonnes: 2020), written and directed by the Senegalese -- French director/screenwriter Maïmouna Doucouré, definitely lives up to its controversial reputation. The film follows a young French Senegalese girl named Amy (Fathia Youssouf), as she navigates the always awkward and often painful journey of adolescence and puberty as a child from an immigrant family in Paris.
+
+The film depicts the dichotomy of her conservative Muslim upbringing with the highly sexualized and provocative world that she is trying desperately to fit into at school and with a new group of friends, who dance together in a group they named the "Cuties." Throughout the movie Amy displays increasingly immodest and desperate behavior, as she tries to fit in as well as cope with compounding pressures at home.
+
+Doucouré surely intended to display the psychological battlefield that is girlhood, especially coming from a conservative background with added pressures and expectations. However, the film failed to achieve its intended purpose of sharing the perspective of young girls in a society that oversexualizes women from much too early of an age. Many different aspects of this movie contributed to its overall missing of the mark. Furthermore, it participates in, instead of sufficiently critiquing the hyper-sexualization of young girls and women, and the impact that it can have on perpetuating the commercial trafficking of children for commercial sex exploration.
+
+Of the myriad of themes and scenes which made this movie at many times hard to watch, some of them stood out as particularly lethal in relation to the commercial trafficking of children for commercial sex exploration. The filming techniques and specific shots, and the lack of sufficient explanation of the systematic sexualization of children and young adults, among other things, contributed to common problems that we see in the commercial trafficking of children and adults for sex exploration, such as the specific nature of the crime, as well as the common misconception by perpetrators of child sex abuse that commercial sex is a choice.
+
+One of the early scenes in the movie illuded to the problematic depictions of young female bodies in the way it was filmed specifically. In this scene, Amy discovers her soon to be friend Angelica (Médina El Aidi-Azouni) dancing freely in the laundry room of their building while listening to music. On paper, this doesn't sound particularly alarming, but one specific thing which stood out to me was the fact that Angelica is turned around, facing away from the camera. As she is also dressed in quite form-fitting and mature clothing, performing a task which is usually done by grown women, there is no context in this scene which suggests that she is a child, which allows the viewer to sexualize her body outside of the social context of her age.
+
+It reminds me of a phenomenon we have discussed multiple times in class about how pedophilia is a crime which is specific to its perpetrators. For some other crimes, like drug trafficking for example, there will always be a demand and in turn it is virtually impossible to stamp out of society through conventional methods. By contrast sexual exploitation of children is a crime which has a very specific perpetrator, and therefore its existence in our society is not a result of inevitability, but a total failure and direct symptom of society itself. For this reason, this scene demonstrates how the way this movie was made directly contributes to the sexualization of children instead of merely bringing attention to it.
+
+Another shortcoming of this movie was the focus on the girls' internal struggles coming to terms with their sexuality instead of on the systematic pressures by society as a whole which contribute to their desperate, attention seeking, or merely curious actions. Although the film did touch on Amy's struggles with her father and her conservative Muslim upbringing, for the most part I thought the film depicted her actions as her own rebellious or selfish motivations, when obviously she is years away from the legal age of consent, let alone the full development of her prefrontal cortex.
+
+This is particularly harmful in terms of the commercial trafficking of children and commercial sex exploitation because of the misconception by perpetrators that commercial sex is a "choice." While obviously in most cases of commercial sex this is untrue, it is always untrue in cases involving a child, as they cannot legally consent. I felt this movie attributed far too much agency to Amy's decisions in a way that was inaccurate and harmful.
+
+I assume that this film was intended for both industry specific audiences from sectors like pornography, film, fashion and social media who have the power to execute change in the way our society sexualizes young girls, as well as all members of the greater society which contribute to and participate in this heinous phenomenon. To me, the film did more to reallocate blame from society back onto young girls than it did to provoke introspection.
+
+Finally, in terms of the movie's entertainment value or ability to engage the viewer, it was to me, hard to watch. With respect to Doucouré's personal experience and artistic license, I found the movie did very little to contribute positively toward the discussion about hyper-sexualization of children and young adults, and in most instances did much more to contribute negatively.

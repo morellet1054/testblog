@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
-    <title>My Blog</title>
+    <title>Morelle Tinsley</title>
     <link>https://morellet54.netlify.app/</link>
     <atom:link href="https://morellet54.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
-    <description>My Blog
+    <description>Morelle Tinsley
 </description>
     <generator>Distill</generator>
     <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate>
@@ -14,6 +14,14 @@
       <link>https://morellet54.netlify.app/posts/2021-05-03-downtown-dc-covideconomy</link>
       <description>This is an article I wrote for an SMPA class about the downturn in the economy of the Downtown neighborhood in DC during the Covid-19 Pandemic. For an example of my reporting and writing skills, read on!</description>
       <guid>https://morellet54.netlify.app/posts/2021-05-03-downtown-dc-covideconomy</guid>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Film Critique</title>
+      <dc:creator>Morelle Tinsley</dc:creator>
+      <link>https://morellet54.netlify.app/posts/2021-05-03-film-critique</link>
+      <description>The following is a sample of a film critique I wrote for my Human Trafficking class. To learn more about why this movie was so controversial, read on!</description>
+      <guid>https://morellet54.netlify.app/posts/2021-05-03-film-critique</guid>
       <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
