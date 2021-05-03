@@ -10,12 +10,24 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "Data Stories"
+    - text: "Experience"
+      href: about.html
+    - text: "Skills"
+      href: about.html  
+    - text: "Work Samples"
       menu:
-        - text: "My New Article"
-        - href: my-new-article.html
-        - text: "Second Item Down"
-        - href: publish_website.html
+        - text: "Functions and Plotly"
+        - href: Functions-and-plotly.html
+        - text: "Item 2"
+        - href: posts/2021-04-20-my-first-new-post/index.html
+        - text: "Item 3"
+        - href: item-1.html
+        - text: "Item 4"
+        - href: posts/2021-04-20-my-first-new-post/index.html
+        - text: "Item 5"
+        - href: item-1.html
+        - text: "Item 6"
+        - href: posts/2021-04-20-my-first-new-post/index.html
 output: distill::distill_article
 category:
   -charts
