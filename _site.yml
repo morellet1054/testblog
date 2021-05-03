@@ -20,8 +20,8 @@ navbar:
         - href: R-Functions-and-Plotly.html
         - text: "RStudio Mapping"
         - href: posts/2021-04-20-my-second-new-post/index.html
-        - text: "Item 3"
-        - href: item-1.html
+        - text: "Downtown DC Covid Economy"
+        - href: posts/2021-05-03-downtown-dc-covideconomy.html
         - text: "Item 4"
         - href: posts/2021-04-20-my-first-new-post/index.html
         - text: "Item 5"

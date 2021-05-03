@@ -7,7 +7,15 @@
     <description>My Blog
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Writing Sample: Downtown DC Economy</title>
+      <dc:creator>Morelle Tinsley</dc:creator>
+      <link>https://morellet54.netlify.app/posts/2021-05-03-downtown-dc-covideconomy</link>
+      <description>This is an article I wrote for an SMPA class about the downturn in the economy of the Downtown neighborhood in DC during the Covid-19 Pandemic. For an example of my reporting and writing skills, read on!</description>
+      <guid>https://morellet54.netlify.app/posts/2021-05-03-downtown-dc-covideconomy</guid>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Functions and plot_ly figures from Flight Data</title>
       <dc:creator>Morelle Tinsley</dc:creator>

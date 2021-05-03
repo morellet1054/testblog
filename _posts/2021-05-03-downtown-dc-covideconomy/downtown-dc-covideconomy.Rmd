@@ -1,0 +1,108 @@
+---
+title: "Writing Sample: Downtown DC Economy"
+description: |
+  This is an article I wrote for an SMPA class about the downturn in the economy of the Downtown neighborhood in DC during the Covid-19 Pandemic. For an example of my reporting and writing skills, read on!
+author:
+  - name: Morelle Tinsley
+    url: https://morellet54.netlify.app
+date: 05-03-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+**WASHINGTON ECONOMY STRUGGLES
+THROUGH PANDEMIC WITHOUT TOURISTS**
+
+Following a record-breaking decade for tourism in Washington, the District of Columbia will see its worst year since in visitor numbers in 2020, due to the COVID-19 pandemic. 
+
+Washington is a city which attracts visitors from all over the world. Reports from the district's official marketing organization, Destination DC (DDC), indicate that the nation's capital once depended on each tourist for about \$64 in tax receipts and \$182 inwages for local workers. Since March of this year, however, those visitors have been staying home. In terms of the city's economy, it shows.  
+
+Tourism in the district had been growing for a decade until 2019, according to the annual reports by DDC. Pre- COVID-19, 22.8 million domestic visitors were drawn to the capital city each year. This year, that number is expected to drop to about 11 million, down more than 50%.
+
+Elliott L. Furguson, II, President and CEO of DDC, says Washington has already lost \$4.5 billion in tourism revenue this year: "Nationally, the travel industry is experiencing 51% unemployment -- twice the rate of the worst year of the Great Depression," he said. While the virus continues to sweep the nation in its third and worst wave of infections yet, the U.S. faces not only a public health crisis, but also an economic one.
+
+Some of the district's neighborhoods have been hit harder than others. The DowntownDC Business Improvement District (BID), a non-profit promoter and supporter of businesses in the area, released a report this fall about the current situation in the center of the city. The daytime population in this neighborhood has dropped by 82%, consisting largely of commuters from the Washington region, as well as tourists drawn to the many museums and historical monuments in this part of town. 
+
+Yet, this silence in downtown D.C. echoes throughout the city. Laura Echeverri, general manager at Emissary, located in Dupont Circle, explains, "We saw significant changes as early as the Cherry Blossom
+Festival. With empty downtown D.C. and very few visitors, the foot traffic in our neighborhood was only 10% of what it used to be in normal times, which represents about 40% of our customer base," 
+
+The loss of large-scale events and conventions to the virtual space has been a major contributor to the district's economic strain. DDC reports that 42 major events have been cancelled for 2020 and 2021, which will affect a \$422 million loss of revenue. Museums are now generating about 33% of their normal revenue, up from zero over the summer. 
+
+More virtual events mean less business for ride share services, restaurants, and of course, hotels. This September, hotels in the neighborhood made only 10 -15% of their September 2019 revenue, and only 5% of non-essential workers were occupying their office spaces. These numbers are grim, and they represent the struggle that food trucks, restaurants and retailers are facing as well.
+
+Michael Winberg, general manager at The Georgetown Inn, said his revenue is down 75%. "The toughest part is paying bills," he said. Temporarily letting go of bellmen, valets and all of his food service employees has dramatically changed the experience he is able to provide for his guests. Winberg anxiously awaits the day when he can once again run his hotel according to the pre-pandemic standard of service.
+
+An article from Eater, Washington DC shares a running list of closures for restaurants ranging from 1 year old trendy hot spots to decades old staples. It seems that location and negotiable landlords are playing a major role in pandemic sustainability for many Washington restauranteurs. 
+
+The downtown area alone has lost around 7,000 jobs due to permanent closures and layoffs in restaurants, hotels, theatres and other event venues. The catering and concessions company Aramark announced layoffs of 916 of their 1,300 employees in the district, according to the BID report. Most of these temporary layoffs were from Capital One Arena and Walter E. Washington Convention Center, which have been unable to
+host events since March of this year.  
+
+Steven Ngo, assistant manager at Lincoln's Waffle Shop in the heart of downtown Washington says that tourists account for about half of their income. "Without a stable group of tourists, it is very hard to manage at the moment," he said. Ngo described the neighborhood as "a ghost town." He can't help but notice as more and more businesses board
+up on his block.
+
+Ngo's Waffle Shop is listed on Eater DC's "15 Tourist Trap Restaurants That are Actually Great," but he described the recent mood at the restaurant as "full of worries and uncertainty." "We are a family business, and we pay out of pocket for everything we do." 
+
+Lincoln's Waffle Shop is adhering to the Centers for Disease Control and Prevention's (CDC) restrictions and best practices. This means adding an extra step of cleaning between each task for employees, which costs the restaurant valuable time and money. Ngo worries that it will take a long time to make up for the loss of patrons and profit during the pandemic.
+
+Furguson spoke to the uncertainty that has plagued business owners in Washington as a result of financial challenges and a lack of visitors. He said, "As the leader of an organization in a similar situation, I encourage business owners to try to continue urging Congress for relief and be prepared for the changes we know will continue before the vaccines are fully available." 
+
+He pointed out that many destination marketing companies did not receive aid from the Paycheck Protection Program (PPP), a loan from the Small Business Administration (SBA) which provides incentives for businesses not to lay off their employees. The first round of PPP loans passed under the CARES Act, which ended in August. Since then, the election has thrown a wrench in attempts to pass legislation for another round of loans. Bankers and businesses worry that nothing will happen until January, and by then it will be too late. 
+
+Winberg echoed these same pleas for the federal government to work harder for small business owners and workers. After receiving only a small PPP loan, he found it impossible to keep all of his employees on the payroll through the pandemic. He said, "The government really needs to give more assistance to the travel industry." 
+
+The lack of support doesn't seem to stop there, however, and Echeverri explained how mixed information and direction from the federal government put an extra strain on restaurants, especially in the early months of the pandemic. "At the end of the day, we had to make a lot of important decisions per our own research and information collected from colleagues or local restaurant coalitions," she said.
+
+Due to the disproportionate number of tourist facing establishments downtown, and in the city as a whole, the neighborhood and the district have seen uneven recovery of small businesses compared to other areas and cities. In other, more residential areas of Washington, locally owned spots are depending on their neighbors who are staying closer to home, following Mayor Bowser's stage II restrictions.
+
+"We decided to focus our attention closer to our area to try to attract new customers from Dupont Circle, Georgetown and the closest residential neighborhoods. Most people, at the end of their working from home day, are looking for a short walk, pick up something casual to eat, and return home," said Echeverri. Creative and dynamic responses to pandemic problems have been necessary for businesses' survival this year.
+
+Furguson said, "The pandemic is unlike anything we've seen before... in that it affects every sector of our business." The organization has shifted its marketing focus closer to home, to the 50 million people who live within a 4-hour driving distance of the district. This shift includes promoting staycations for area residents, new narratives when advertising starts up again, and a total overhaul redesign of the DDC website at the end of the year.
+
+DDC projects, in light of optimistic news about vaccines and treatments, that numbers could climb back up to 20 million by 2022. But although foreign travel makes up only a small percentage of District of Columbia tourism (about 7%), their spending constitutes about 27%. Following international travel bans this year, the research firm Tourism Economics expects a four-year downturn in travel from China, Washington's top overseas market for tourism.  
+
+According to the D.C. Policy Center, until a vaccine becomes readily available, the focus of recovery efforts for the tourism economy must be on making visitors and commuters feel safe enough to travel and to enjoy the available activities the city has to offer. This is why the Stage II restrictions, which have been in place since June, are so important. While some see these restrictions as harsh or limiting to their freedoms, they are paramount to making the city marketable to outsiders. 
+
+Post-pandemic, Echeverri says Emissary will continue to prioritize airflow at their locations, even once the vaccine is readily available. Ngo hopes the Waffle Shop will be able to return to some semblance of normal, but cites social distancing as paramount to making that a reality. "It's a tough situation," he said, "something me and my family have never experienced before, so we're just trying to take it day by day and hope for the best."
+
+ 
+
+Elliott L.
+Furguson, President and CEO of Destination DC
+
+202.789.7016
+
+[elliott\@washington.org](mailto:elliott@washington.org)
+
+ 
+
+ 
+
+Laura
+Echeverri, general manager of Emissary
+
+202.446.8577
+
+[laura\@emissarydc.com](mailto:laura@emissarydc.com)
+
+ 
+
+Michael
+Winberg, general manager of The Georgetown Inn
+
+202.333.8900
+
+[mwinberg\@yourdchotels.com](mailto:mwinberg@yourdchotels.com)
+
+ 
+
+Steven Ngo,
+assistant manager at Lincoln's Waffle Shop
+
+202.638.4008
+
+ 
