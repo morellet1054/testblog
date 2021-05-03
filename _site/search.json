@@ -5,14 +5,14 @@
       "title": "About Me",
       "author": [],
       "contents": "\nMy name is Morelle Tinsley and I am a **graduating** senior at George Washington University! In my Digital Reporting class, we have been learning to code in RStudio all semester in order to learn how to search and sort data in order to find stories in numbers! For my final project, we learned how to create our own personal website using Distill and netlify, and that is what you see here.\n\n\n\n",
-      "last_modified": "2021-05-03T19:59:17+00:00"
+      "last_modified": "2021-05-03T20:44:37+00:00"
     },
     {
       "path": "index.html",
       "title": "Morelle's Website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-05-03T19:59:18+00:00"
+      "last_modified": "2021-05-03T20:44:38+00:00"
     },
     {
       "path": "my-new-article.html",
@@ -26,7 +26,7 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
-      "last_modified": "2021-05-03T19:59:19+00:00"
+      "last_modified": "2021-05-03T20:44:38+00:00"
     }
   ],
   "collections": ["posts/posts.json"]

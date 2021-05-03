@@ -18,8 +18,8 @@ navbar:
       menu:
         - text: "Functions and Plotly"
         - href: R-Functions-and-Plotly.html
-        - text: "Item 2"
-        - href: posts/2021-04-20-my-first-new-post/index.html
+        - text: "RStudio Mapping"
+        - href: posts/2021-04-20-my-second-new-post/index.html
         - text: "Item 3"
         - href: item-1.html
         - text: "Item 4"
