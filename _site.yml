@@ -11,7 +11,7 @@ navbar:
     - text: "About"
       href: about.html
     - text: "Experience"
-      href: about.html
+      href: Experience.html
     - text: "Skills"
       href: about.html  
     - text: "Work Samples"

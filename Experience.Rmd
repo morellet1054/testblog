@@ -1,0 +1,97 @@
+---
+title: "My Resume"
+description: |
+  Welcome! Use this page to get to know a little bit more about my professional experience.
+author:
+  - name: Morelle Tinsley 
+    url: https://morellet54.netlify.app
+    affiliation: Spacely Sprockets
+    affiliation_url: https://example.com/spacelysprokets
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Morelle Tinsley 
+
+#### 1230 New Hampshire Ave NW, 3H, Washington, DC 20036 • 910.616.8201 • [morellet54\@gmail.com](mailto:morellet54@gmail.com){.email} • LinkedIn
+
+### **EDUCATION**
+
+**The George Washington University** • **Bachelor of Arts in International Affairs**
+
+International Security Policy Concentration, Minor in Journalism and Mass Communications
+
+Washington, DC • May 2021
+
+*GPA:3.44;
+Presidential Scholarship*
+
+**Relevant Coursework:** Reporting in the Digital Age • Interpersonal Communication • Micro & Macro Economics • Narrative Journalism
+
+ 
+
+**IES Abroad** • **International Relations and Political Science Program**
+
+Barcelona, Spain • Spring 2020
+
+### EXPERIENCE
+
+**Women for Women International** • **External Engagements Intern**
+
+September 2020 - Present
+
+-   Manage and support a "Solidarity Network" of 10 community leaders who fundraise and promote the work of WfWI; provide coaching on event planning and optimizing social media and fundraising
+    practices.
+
+-   Conduct market research and report on potential
+    events, partnerships & ambassadors in order to capitalize on the WfWI
+    network and increase visibility; director uses research to pitch opportunities
+    to CEO and create relationships with influencers and celebrities.
+
+-   Envision, plan, and carry out logistics
+    for bi-monthly events, forums, social media campaigns and more.
+
+**WRGW Radio** • **Host, "A Year in the Life"**
+
+Fall 2019, Fall 2020
+
+-   Curated year-specific playlists for weekly episodes featuring music spanning from 1950 to present; ran sound board, hosted and produced using GarageBand software.
+
+-   Practiced social media marketing tactics via Instagram in order to reach new audience members and compel listeners to tune in.
+
+-   Taught an intern how to produce and
+    host a show and shared WRGW's rules, policies and best practices.
+
+**Clutch** • **Content Writing and Marketing Intern**
+
+Summer 2020, Cancelled
+
+**UBS Financial Services, Inc.** • **Intern**
+
+Summer 2017, Summer 2019
+
+-   Expanded on and executed ideas for 4 strategic networking events each summer for clients and employees; created and distributed invitations, managed guest lists and worked with vendors.
+
+-   Represented Wilmington branch at UBS PAC meeting in DC as assistant to financial advisor (FA) and PAC member (2017).
+
+-   Ran account reports and prepared materials for up to 10 client meetings per week.
+
+-   Collaborated with all 20 team members, assisted with specific client relations and correspondence, compliance, research and marketing projects.
+
+-   Compiled agendas for each of the 4 advisors, processed revenue and new account reports for weekly team meetings.
+
+**ALLSAINTS** • **Stylist**
+
+October 2018 -- May 2019
+
+-   Honed retail sales techniques by learning from 4 managers and at least 20 other stylists. Contributed to daily store-wide revenue goals for Georgetown sales team on every shift.
+
+-   Served up to 50 customers per shift, helping find pieces or design outfits based on personal style and needs.
+
+-   Demonstrated superior customer service to maximize satisfaction and understand high-end shopper preferences and behaviors. 
+
+ 
