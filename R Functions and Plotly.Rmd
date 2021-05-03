@@ -12,12 +12,147 @@ output: distill::distill_article
 ---
 
 ```{r setup, include=FALSE}
+library(tidyverse)
+library(plotly)
+library(nycflights13)
+flights <- nycflights13::flights
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+# Filtering Data Using Functions
 
+The Following uses a data set of flights from New York City.
 
+1.  First, I created a function to filter the data to only show flights in the dataset which originate from JFK
 
+```{r}
+head(flights)
 
+snglorgn <- function(flight_numbers) {
+  flight_numbers %>%
+    filter(origin == "JFK")
+}
 
+```
 
+2.  The next function will do two things: first, it will filter the data frame to only include records from a single originating airport, and then aggregate the results by airline to show how many flights each airline has from that airport.
+
+```{r}
+head(flights)
+
+snglorgn <- function(flight_numbers) {
+  flight_numbers %>%
+    filter(origin == "JFK") %>% 
+    count(carrier)
+}
+
+snglorgn(flights)
+
+```
+
+3.  Below, I have created a function which: shows only flights which originate from JFK, whose flight times are greater than 400 minutes, and then aggregates the results to show how many flights with these attributes each airline has.
+
+```{r}
+head(flights)
+
+snglorgn_plusmore <- function(flight_numbers) {
+  flight_numbers %>%
+    filter(origin == "JFK") %>% 
+    filter(air_time>400) %>% 
+    count(carrier)
+}
+
+snglorgn_plusmore(flights)
+```
+
+# Plotly Charts
+
+Now, I will use a package in RStudio called Plotly to create charts from the filtered data.
+
+1.  First, I will create a bar chart of how many flights each airline has that originate from JFK, and are greater than 400 minutes in length.
+
+```{r}
+head(flights)
+
+snglorgn_plusmore <- function(flight_numbers) { #made a function to filter the data
+  flight_numbers %>%
+    filter(origin == "JFK") %>% 
+    filter(air_time>400) %>% 
+    count(carrier)}
+
+snglorgn_plusmore(flights)
+  
+JFK_bar <- snglorgn_plusmore(flights)
+
+plot_ly(data = JFK_bar,                    #create a bar chart from it
+        x = ~carrier,
+        y = ~n,
+        type = "bar"
+        ) %>% 
+  layout(title = "400 minute flights by carrier from JFK",
+         xaxis = list(title = "Carrier"),
+         yaxis = list (title = "Number of flights"))
+
+```
+
+2.  Now, I will use a function to filter the data set to show how many flights each airline has with the destination of Daniel K. Inouye International Airport (HNL) in Honolulu.
+
+```{r}
+HNL_share <- function(flight_numbers){
+  flight_numbers %>% 
+    count(dest == "HNL")
+}
+```
+
+```{r}
+head(flights)
+
+flights %>% 
+  filter(dest =="HNL") %>% 
+  count(carrier) 
+```
+
+```{r}
+carrier_count <- function(data){
+results <- data %>% 
+    filter(dest == "HNL") %>% 
+  count(carrier) 
+
+return(results)
+}
+```
+
+```{r}
+honolulu_donut <- carrier_count(flights)
+```
+
+```{r}
+fig <- honolulu_donut %>% plot_ly(labels = ~carrier, values = ~n)
+
+fig <- fig %>% add_pie(hole = 0.6) #would make a pie chart, to make a donut chart add the hole
+
+fig <- fig %>% layout(
+                  title = "Number of HNL flights by carrier",  showlegend = F,
+                  xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+                  yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
+
+fig
+```
+
+3.  The final type of plotly chart I will show here is a scatter plot. First, I will filter the data set to show only flights with a destination of HNL, Honolulu. Then, I will input the departure and arrival delays into the x and y axes, respectively, to show the relationship between departure delays and arrival delays.
+
+```{r}
+head(flights)
+
+delay_data <- flights %>% 
+  filter(dest == "HNL")
+```
+
+```{r}
+delay_plot_ly<- plot_ly(data = delay_data, x = ~dep_delay, y = ~arr_delay)
+
+delay_scatter <- plot_ly(data = delay_data, x = ~dep_delay, y = ~arr_delay) %>% 
+  layout(title = "Honolulu Arrival Delays According to Departure Delays")
+
+delay_scatter
+```

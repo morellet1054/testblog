@@ -17,7 +17,7 @@ navbar:
     - text: "Work Samples"
       menu:
         - text: "Functions and Plotly"
-        - href: Functions-and-plotly.html
+        - href: my-new-article.html
         - text: "Item 2"
         - href: posts/2021-04-20-my-first-new-post/index.html
         - text: "Item 3"
