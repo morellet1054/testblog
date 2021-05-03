@@ -13,7 +13,7 @@ navbar:
     - text: "Experience"
       href: Experience.html
     - text: "Skills"
-      href: about.html  
+      href: Skills.html  
     - text: "Work Samples"
       menu:
         - text: "Functions and Plotly"

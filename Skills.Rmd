@@ -1,0 +1,30 @@
+---
+title: "My Skills"
+description: |
+  Hi again! Use this page to learn more about my things I know how to do, things I like to do and things I'm good at.
+author:
+  - name: Morelle Tinsley 
+    url: https://morellet54.netlify.app
+    affiliation: Spacely Sprockets
+    affiliation_url: https://example.com/spacelysprokets
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Technical Skills
+
+Through my various professional experience, I have become proficient in using Microsoft Office Suite & Google Suite, as well as Facebook, Twitter and Instagram. My data journalism class at GW taught me everything I know about coding in RStudio, and creating websites like the one you are looking at now! I also know IMB SPSS, so come to me with all of your statistical analysis needs.
+
+### Certifications
+
+In my spare time this semester, I have pursued my interest in securities and investing by studying for and passing the Securities Industries Essentials (SIE) FINRA exam. In continuing my education, I will be studying and sitting for the Series 66 North American Securities Administrators Association (NASAA) exam, which includes a combination of state securities law and investment advisory practices. Passing this exam will allow me to qualify as an Investment Adviser Representative and as a securities agent representing a broker dealer.
+
+In 2017 I was lucky enough to have the opportunity to get my 200 hour Kunga Yoga Teacher Training Certificate, which allows me to be a registered yoga teacher. This certification means a lot to me because I have benefited beyond my wildest dreams spiritually, mentally and physically from my yoga practice. The opportunity and ability to share that with others means the world to me.
+
+### Languages
+
+Throughout my time at GW, I have completed a three-year course work proficiency in the Spanish language. While abroad for (most of) the Spring 2020 semester, I became conversational while living with a host family in Barcelona. Meeting new people and learning about how their lives are shaped by culture, politics and their environment is my favorite part of life.

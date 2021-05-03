@@ -15,7 +15,7 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Morelle Tinsley 
+## Morelle Tinsley
 
 #### 1230 New Hampshire Ave NW, 3H, Washington, DC 20036 • 910.616.8201 • [morellet54\@gmail.com](mailto:morellet54@gmail.com){.email} • LinkedIn
 
@@ -27,8 +27,7 @@ International Security Policy Concentration, Minor in Journalism and Mass Commun
 
 Washington, DC • May 2021
 
-*GPA:3.44;
-Presidential Scholarship*
+*GPA:3.44; Presidential Scholarship*
 
 **Relevant Coursework:** Reporting in the Digital Age • Interpersonal Communication • Micro & Macro Economics • Narrative Journalism
 
@@ -44,16 +43,11 @@ Barcelona, Spain • Spring 2020
 
 September 2020 - Present
 
--   Manage and support a "Solidarity Network" of 10 community leaders who fundraise and promote the work of WfWI; provide coaching on event planning and optimizing social media and fundraising
-    practices.
+-   Manage and support a "Solidarity Network" of 10 community leaders who fundraise and promote the work of WfWI; provide coaching on event planning and optimizing social media and fundraising practices.
 
--   Conduct market research and report on potential
-    events, partnerships & ambassadors in order to capitalize on the WfWI
-    network and increase visibility; director uses research to pitch opportunities
-    to CEO and create relationships with influencers and celebrities.
+-   Conduct market research and report on potential events, partnerships & ambassadors in order to capitalize on the WfWI network and increase visibility; director uses research to pitch opportunities to CEO and create relationships with influencers and celebrities.
 
--   Envision, plan, and carry out logistics
-    for bi-monthly events, forums, social media campaigns and more.
+-   Envision, plan, and carry out logistics for bi-monthly events, forums, social media campaigns and more.
 
 **WRGW Radio** • **Host, "A Year in the Life"**
 
@@ -63,8 +57,7 @@ Fall 2019, Fall 2020
 
 -   Practiced social media marketing tactics via Instagram in order to reach new audience members and compel listeners to tune in.
 
--   Taught an intern how to produce and
-    host a show and shared WRGW's rules, policies and best practices.
+-   Taught an intern how to produce and host a show and shared WRGW's rules, policies and best practices.
 
 **Clutch** • **Content Writing and Marketing Intern**
 

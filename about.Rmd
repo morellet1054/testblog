@@ -3,9 +3,8 @@ title: "About Me"
 description: |
 ---
 
-![George Washington University Class of 2021, B.A. in International Affairs](Grad%20photo%20unedited.jpg){width="225"}My name is Morelle Tinsley and I am a \*\*graduating\*\* senior at George Washington University! In my Digital Reporting class, we have been learning to code in RStudio all semester in order to learn how to search and sort data in order to find stories in numbers! For my final project, we learned how to create our own personal website using Distill and netlify, and that is what you see here.
----
+![](Grad%20photo%20unedited.jpg){width="137"}
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+*George Washington University Class of 2021, B.A. in International Affairs, minor in Journalism and Mass Communications*
+
+My name is Morelle Tinsley and I am a graduating senior at the George Washington University! In my Digital Reporting class, we have been learning to code in RStudio all semester. For my final project, I created my own personal website using Distill and netlify, and that is what you see here. Take a look around my site to find out more about how I learned to use Rstudio to find stories in numbers and data sets. In addition, you will find writing samples from coursework I have completed in both International Security Policy and Journalism, as well as a little bit more about who I am and what I do.
